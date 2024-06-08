@@ -25,6 +25,5 @@ public class UserDal : IUserDal
         await using var db = new DbHelper();
         var modelFromDb = await db.Users.FirstOrDefaultAsync(u => u.Email == email) ?? new UserModel();
         return modelFromDb;
-
     }
 }

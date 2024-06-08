@@ -21,4 +21,11 @@
         <Using Include="Xunit"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\BonusSystem\BonusSystem.csproj" />
+      <ProjectReference Include="..\Cart\Cart.csproj" />
+      <ProjectReference Include="..\Goods\Goods.csproj" />
+      <ProjectReference Include="..\Identity\Identity.csproj" />
+    </ItemGroup>
+
 </Project>
